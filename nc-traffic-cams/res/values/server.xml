@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hostname"></string>
+    <string name="port"></string>
+    <string name="dot_hostname">tims.ncdot.gov</string>
+    <string name="maps_hostname">clients4.google.com</string>
+</resources>

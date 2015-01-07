@@ -1,0 +1,12 @@
+{
+    "name": "NCTC-API",
+    "description": "NC Traffic Cams API",
+    "version": "1.0.0,
+    "private": true,
+    "dependencies": {
+        "express": "3.x",
+        "mongodb"  :  "*",
+        "winston"  :  "*",
+        "forever"  :  "*"
+    }
+}

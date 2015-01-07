@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="#ffffff" >
+
+        <com.emuneee.nctrafficcams.ui.views.RobotoTextView
+            android:id="@+id/text_view_about_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/h_margin"
+            android:layout_marginRight="@dimen/h_margin"
+            android:layout_marginTop="6dp"
+            android:text="@string/about_summary"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/primary_text" />
+
+        <com.emuneee.nctrafficcams.ui.views.RobotoTextView
+            android:id="@+id/text_view_open_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/text_view_about_summary"
+            android:layout_marginLeft="@dimen/h_margin"
+            android:layout_marginRight="@dimen/h_margin"
+            android:layout_marginTop="9dp"
+            android:gravity="center"
+            android:text="@string/open_source_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/primary_text"
+            android:textStyle="bold" />
+
+        <com.emuneee.nctrafficcams.ui.views.RobotoTextView
+            android:id="@+id/text_view_google_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/text_view_open_source"
+            android:layout_marginLeft="@dimen/h_margin"
+            android:layout_marginRight="@dimen/h_margin"
+            android:layout_marginTop="3dp"
+            android:background="@null"
+            android:gravity="center"
+            android:text="@string/google_play_services"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/link_text" />
+
+        <com.emuneee.nctrafficcams.ui.views.RobotoTextView
+            android:id="@+id/text_view_map_icons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/text_view_google_play"
+            android:layout_marginLeft="@dimen/h_margin"
+            android:layout_marginRight="@dimen/h_margin"
+            android:layout_marginTop="3dp"
+            android:background="@null"
+            android:gravity="center"
+            android:text="@string/map_icons"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/link_text" />
+        
+         <com.emuneee.nctrafficcams.ui.views.RobotoTextView
+            android:id="@+id/text_view_actionbar_ptr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/text_view_map_icons"
+            android:layout_marginLeft="@dimen/h_margin"
+            android:layout_marginRight="@dimen/h_margin"
+            android:layout_marginTop="3dp"
+            android:background="@null"
+            android:gravity="center"
+            android:text="@string/actionbar_ptr"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/link_text" />
+
+        <com.emuneee.nctrafficcams.ui.views.RobotoTextView
+            android:id="@+id/text_view_version_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/text_view_actionbar_ptr"
+            android:layout_marginLeft="@dimen/h_margin"
+            android:layout_marginRight="@dimen/h_margin"
+            android:layout_marginTop="9dp"
+            android:gravity="center"
+            android:text="@string/version"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/primary_text"
+            android:textStyle="bold" />
+
+        <com.emuneee.nctrafficcams.ui.views.RobotoTextView
+            android:id="@+id/text_view_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/text_view_version_title"
+            android:layout_marginLeft="@dimen/h_margin"
+            android:layout_marginRight="@dimen/h_margin"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/primary_text" />
+
+        <com.emuneee.nctrafficcams.ui.views.RobotoTextView
+            android:id="@+id/text_view_developer_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/text_view_version"
+            android:layout_marginLeft="@dimen/h_margin"
+            android:layout_marginRight="@dimen/h_margin"
+            android:layout_marginTop="9dp"
+            android:gravity="center"
+            android:text="@string/about_developer"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/primary_text"
+            android:textStyle="bold" />
+
+        <com.emuneee.nctrafficcams.ui.views.RobotoTextView
+            android:id="@+id/text_view_developer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/text_view_developer_title"
+            android:layout_marginLeft="@dimen/h_margin"
+            android:layout_marginRight="@dimen/h_margin"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:text="@string/author"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/primary_text" />
+
+        <com.emuneee.nctrafficcams.ui.views.RobotoTextView
+            android:id="@+id/text_view_emuneee_apps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/text_view_developer"
+            android:layout_marginLeft="@dimen/h_margin"
+            android:layout_marginRight="@dimen/h_margin"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:text="@string/emuneee_apps"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/primary_text" />
+
+        <com.emuneee.nctrafficcams.ui.views.RobotoTextView
+            android:id="@+id/text_view_emuneee_com"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/text_view_emuneee_apps"
+            android:layout_marginLeft="@dimen/h_margin"
+            android:layout_marginRight="@dimen/h_margin"
+            android:layout_marginTop="6dp"
+            android:autoLink="web"
+            android:gravity="center"
+            android:text="@string/emuneee_com_link"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/primary_text" />
+
+        <ImageView
+            android:id="@+id/image_view_emuneee_logo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/text_view_emuneee_com"
+            android:layout_marginLeft="@dimen/h_margin"
+            android:layout_marginRight="@dimen/h_margin"
+            android:layout_marginTop="6dp"
+            android:contentDescription="@string/version"
+            android:drawable="@drawable/ic_e_logo"
+            android:src="@drawable/ic_e_logo" />
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.emuneee.nctrafficcams.ui.views.RobotoTextView
+        android:id="@+id/text_view_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/v_drawer_child_padding"
+        android:paddingLeft="@dimen/h_drawer_child_padding"
+        android:paddingTop="@dimen/v_drawer_child_padding"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/primary_text" />
+
+</LinearLayout>

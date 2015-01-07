@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="app_background">#ffffff</color>
+    <color name="primary_text">#000000</color>
+    <color name="link_text">#0000FF</color>
+    <color name="gallery_item_text_bg">#aa000000</color>
+	<color name="gallery_item_text">#ffffff</color>
+    <color name="border">#000000</color>
+    <color name="action_bar">#e4e4e4</color>
+	<color name="drawer_separator">#d4d4d4</color>
+</resources>

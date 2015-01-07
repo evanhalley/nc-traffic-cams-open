@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/image_settings" >
+        <ListPreference
+            android:defaultValue="@string/medium_quality"
+            android:dialogTitle="@string/image_settings"
+            android:entries="@array/image_quality_settings"
+            android:entryValues="@array/image_quality_settings"
+            android:key="@string/image_quality"
+            android:summary="@string/image_quality_summary"
+            android:title="@string/image_quality" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/other" >
+        <ListPreference
+            android:defaultValue="@string/one_mile"
+            android:dialogTitle="@string/near_me_radius"
+            android:entries="@array/near_me_radii"
+            android:entryValues="@array/near_me_radii"
+            android:key="@string/near_me_radius"
+            android:summary="@string/near_me_radius_summary"
+            android:title="@string/near_me_radius" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/send_anonymous_statisitcs"
+            android:summary="@string/send_anonymous_statistics_summary"
+            android:title="@string/send_anonymous_statisitcs" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

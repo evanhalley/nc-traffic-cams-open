@@ -1,0 +1,75 @@
+<resources>
+
+    <string name="app_name">NC Traffic Cams</string>
+    <string name="show_all">All</string>
+    <string name="favorites">Favorites</string>
+    <string name="error_fetching_camera_update">Sorry, there was an error downloading the cameras. Please try again later.</string>
+    <string name="refresh">Refresh</string>
+    <string name="cameras">Cameras</string>
+    <string name="share">Share</string>
+    <string name="favorite">Add to favorites</string>
+    <string name="unfavorite">Remove from favorites</string>
+    <string name="refreshing">Refreshing...</string>
+    <string name="last_refreshed">Last refreshed at</string>
+    <string name="show_location_on_map">Show the location of this camera</string>
+    <string name="image_settings">Image Settings</string>
+    <string name="image_quality">Image Quality</string>
+    <string name="image_quality_summary">Higher image quality results in better looking pictures, but could adversely affect performance and require more storage.  Takes affect on application restart.</string>
+    <string name="about">About</string>
+    <string name="about_summary">NC Traffic Cams empowers you to make travel decisions using realtime traffic camera snapshots from North Carolina traffic cameras.  Traffic camera images are provided by North Carolina Department of Transportation\'s Traveler Information System.  NC Traffic Cams is not affiliated with the State of North Carolina in anyway.</string>
+    <string name="open_source_title">Open Source Licenses</string>
+    <string name="no_favorites">Tip: Press and hold on any camera image to favorite it.</string>
+    <string name="no_cameras_near">Tip: There may not any cameras near you or your location wasn\'t determined. You can adjust the \'Near Me\' Radius in the settings.</string>
+    <string name="updating_cameras_message">Your traffic cameras are being updated, thanks for your patience...</string>
+
+    <string-array name="image_quality_settings">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+    <string-array name="near_me_radii">
+        <item>0.5 mile</item>
+        <item>1 mile</item>
+        <item>2 miles</item>
+        <item>5 miles</item>
+        <item>10 miles</item>
+        <item>20 miles</item>
+        <item>50 miles</item>
+    </string-array>
+    <string-array name="drawer_list_groups">
+        <item>All</item>
+        <item>Favorite</item>
+        <item>Near Me</item>
+        <item>Cities</item>
+    </string-array>
+
+    <string name="google_play_services">Google Play Services</string>
+    <string name="eula_title">End User License Agreement</string>
+    <string name="about_developer">About Developer</string>
+    <string name="playstore_link">https://play.google.com/store/apps/details?id=com.emuneee.nctrafficcams</string>
+    <string name="playstore_link_market">market://details?id=com.emuneee.nctrafficcams</string>
+    <string name="share_app">Spread the word</string>
+    <string name="rate_on_google_play">Rate me in Google Play</string>
+    <string name="emuneee_apps">emuneee apps ©2014</string>
+    <string name="author">Developed by Evan Halley</string>
+    <string name="visit_emuneee_com"><u>emuneee.com/apps</u></string>
+    <string name="emuneee_com_link">http://emuneee.com/apps</string>
+    <string name="medium_quality">Medium</string><string name="other">Other</string>
+    <string name="send_anonymous_statisitcs">Send Anonymous Statistics</string>
+    <string name="send_anonymous_statistics_summary">Help make this application better by sending anonymized usage information.</string>
+    <string name="near_me_radius">\'Near Me\' Radius</string>
+    <string name="near_me_radius_summary">The distance to use when looking for traffic cameras \'Near Me\'.</string>
+    <string name="one_mile">1 mile</string>
+    <string name="settings">Settings</string>
+    <string name="agree">Agree</string>
+    <string name="cancel">Refuse</string>
+    <string name="show_cameras_on_map">Show camera locations on a map</string>
+    <string name="link">Link</string>
+    <string name="version">Version</string>
+    <string name="map_icons">Map Icons Collection</string>
+    <string name="actionbar_ptr">ActionBar-PullToRefresh</string>
+    <string name="please_wait">Please wait</string>
+    <string name="populating_map">Preparing...</string>
+    <string name="latitude">° N</string>
+	<string name="longitude">° W</string>
+</resources>

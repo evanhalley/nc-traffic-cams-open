@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:nctrafficcams="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/share_app"
+        android:icon="@drawable/ic_action_share"
+        android:title="@string/share_app"
+        nctrafficcams:showAsAction="always"/>
+    <item
+        android:id="@+id/rate"
+        android:icon="@drawable/ic_action_rate"
+        android:title="@string/rate_on_google_play"
+        nctrafficcams:showAsAction="always"/>
+
+</menu>

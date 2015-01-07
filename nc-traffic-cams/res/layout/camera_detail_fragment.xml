@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background" >
+
+    <ImageView
+        android:id="@+id/image_view_detail"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY" />
+
+    <com.emuneee.nctrafficcams.ui.views.RobotoTextView
+        android:id="@+id/text_view_detail_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_view_detail"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/h_margin"
+        android:layout_marginRight="@dimen/h_margin"
+        android:textColor="@color/primary_text"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <com.emuneee.nctrafficcams.ui.views.RobotoTextView
+        android:id="@+id/text_view_detail_metro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_detail_title"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/h_margin"
+        android:layout_marginRight="@dimen/h_margin"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/primary_text" />
+
+    <com.emuneee.nctrafficcams.ui.views.RobotoTextView
+        android:id="@+id/text_view_detail_coordinates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_detail_metro"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/h_margin"
+        android:layout_marginRight="@dimen/h_margin"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/primary_text" />
+
+</RelativeLayout>

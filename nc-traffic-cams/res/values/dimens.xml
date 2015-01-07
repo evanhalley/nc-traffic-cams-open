@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="h_margin">16dp</dimen>
+    <dimen name="v_drawer_child_padding">8dp</dimen>
+    <dimen name="h_drawer_child_padding">50dp</dimen>
+    <dimen name="v_drawer_group_padding">8dp</dimen>
+    <dimen name="h_drawer_group_padding">30dp</dimen>
+    <dimen name="gallery_item_text_h_padding">2dp</dimen>
+    <dimen name="border_width">1dp</dimen>
+    <dimen name="drawer_separator_width">1dp</dimen>
+    <dimen name="drawer_width">200dp</dimen>
+
+</resources>

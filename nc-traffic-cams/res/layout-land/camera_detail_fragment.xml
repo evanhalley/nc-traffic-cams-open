@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000" >
+
+    <ImageView
+        android:id="@+id/image_view_detail"
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY" />
+
+    <com.emuneee.nctrafficcams.ui.views.RobotoTextView
+        android:id="@+id/text_view_detail_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/image_view_detail"
+        android:layout_marginLeft="@dimen/h_margin"
+        android:layout_marginRight="@dimen/h_margin"
+        android:background="@color/gallery_item_text_bg"
+        android:gravity="center"
+        android:textColor="@color/gallery_item_text"
+        android:textSize="25sp"
+        android:textStyle="" />
+
+    <com.emuneee.nctrafficcams.ui.views.RobotoTextView
+        android:id="@+id/text_view_detail_metro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_detail_title"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/h_margin"
+        android:layout_marginRight="@dimen/h_margin"
+        android:layout_toRightOf="@+id/image_view_detail"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/primary_text"
+        android:visibility="gone" />
+    
+     <com.emuneee.nctrafficcams.ui.views.RobotoTextView
+        android:id="@+id/text_view_detail_coordinates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_detail_metro"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/h_margin"
+        android:layout_marginRight="@dimen/h_margin"
+        android:layout_toRightOf="@+id/image_view_detail"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/primary_text"
+        android:visibility="gone" />
+
+   
+
+</RelativeLayout>

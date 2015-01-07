@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    android:orientation="vertical" >
+
+    <com.emuneee.nctrafficcams.ui.views.RobotoTextView
+        android:id="@+id/text_view_no_favorites"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/h_margin"
+        android:layout_marginRight="@dimen/h_margin"
+        android:gravity="center"
+        android:text="@string/no_favorites"
+        android:textColor="@color/primary_text"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar_loading"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="visible" />
+
+    <uk.co.senab.actionbarpulltorefresh.extras.actionbarcompat.PullToRefreshLayout
+        android:id="@+id/ptr_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <GridView
+            android:id="@+id/grid_view_cameras"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fastScrollEnabled="true"
+            android:numColumns="4"
+            android:visibility="gone"
+            tools:listitem="@layout/gallery_item" >
+        </GridView>
+    </uk.co.senab.actionbarpulltorefresh.extras.actionbarcompat.PullToRefreshLayout>
+
+</LinearLayout>
